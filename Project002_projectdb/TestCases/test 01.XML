@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="211c830f28924d3ea521e5a7734c8ea3" ManualTCId="test 01" TCName="test 01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WF>
+  </WF>
+  <Data>
+    <TCDataSet Iteration="1" Mark="True" TCDataSetTag="">
+    </TCDataSet>
+  </Data>
+</TC>
