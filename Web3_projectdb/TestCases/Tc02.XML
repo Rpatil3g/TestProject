@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<TC TCId="7c4671b37ebd487fa51312b9543d6110" ManualTCId="Tc02" TCName="Tc02" UpdatedOn="10/27/2022 1:58:54 PM">
+<TC TCId="7c4671b37ebd487fa51312b9543d6110" ManualTCId="Tc02" TCName="Tc02" UpdatedOn="10/31/2022 7:07:59 AM">
   <WF>
     <Task Name="d6ebf4accf0f4a2b86f88d664a85aea9" Desc="AcceptDialogAndStoreMessage" TaskSeq="1" WFId="d6ebf4accf0f4a2b86f88d664a85aea9" ID="d6ebf4accf0f4a2b86f88d664a85aea9" UpdateTS="10/27/2022 1:58:54 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
       <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
         <Param Name="key" ParamSeq="1" Parameterized="1" Data="">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="455936beda6d4c93b7313d204c6ca4c7" Desc="AttachFile" TaskSeq="2" WFId="455936beda6d4c93b7313d204c6ca4c7" ID="455936beda6d4c93b7313d204c6ca4c7" UpdateTS="10/31/2022 7:07:59 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="8ed522def21d435f87594dc9f7a2ca6f" ActionName="AttachFile" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="fileInputlocator" ParamSeq="1" Parameterized="1" Data="">
+        </Param>
+        <Param Name="locatorType" ParamSeq="2" Parameterized="1" Data="">
+        </Param>
+        <Param Name="filePath" ParamSeq="3" Parameterized="1" Data="">
         </Param>
       </Step>
     </Task>
@@ -12,6 +22,16 @@
     <TaskDataSet TaskSeq="1" WFID="d6ebf4accf0f4a2b86f88d664a85aea9" ColumnIndx="3">
       <Step StepId="1" ActionID="dd3f2301a40f422cbcac90bb678fa6d9" IsSkipped="False" StepSeq="1">
         <Param Name="key" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+      </Step>
+    </TaskDataSet>
+    <TaskDataSet TaskSeq="2" WFID="455936beda6d4c93b7313d204c6ca4c7" ColumnIndx="4">
+      <Step StepId="1" ActionID="8ed522def21d435f87594dc9f7a2ca6f" IsSkipped="False" StepSeq="1">
+        <Param Name="fileInputlocator" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="4">
+        </Param>
+        <Param Name="locatorType" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="5">
+        </Param>
+        <Param Name="filePath" ParamSeq="3" Parameterized="1" Data="" ColumnIndx="6">
         </Param>
       </Step>
     </TaskDataSet>
