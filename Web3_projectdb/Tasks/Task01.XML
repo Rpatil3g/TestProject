@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Task01" UpdatedOn="10/27/2022 10:41:30 AM" Desc="Task01" TaskID="5350a1f6eaca46f1b58d2c0e8b7ee66d" Path="Task01.XML" IsSystemTask="0" OnError="Continue">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="key" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>
