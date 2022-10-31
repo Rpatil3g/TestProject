@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<TC TCId="7c4671b37ebd487fa51312b9543d6110" ManualTCId="Tc02" TCName="Tc02" UpdatedOn="10/31/2022 7:10:37 AM">
+<TC TCId="7c4671b37ebd487fa51312b9543d6110" ManualTCId="Tc02" TCName="Tc02" UpdatedOn="10/31/2022 7:12:01 AM">
   <WF>
     <Task Name="d6ebf4accf0f4a2b86f88d664a85aea9" Desc="AcceptDialogAndStoreMessage" TaskSeq="1" WFId="d6ebf4accf0f4a2b86f88d664a85aea9" ID="d6ebf4accf0f4a2b86f88d664a85aea9" UpdateTS="10/27/2022 1:58:54 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
       <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
@@ -21,6 +21,12 @@
         </Param>
       </Step>
     </Task>
+    <Task Name="11ffcd5a28d541dcb0f345d3f6e9bdf5" Desc="AcceptDialogAndStoreMessage" TaskSeq="4" WFId="11ffcd5a28d541dcb0f345d3f6e9bdf5" ID="11ffcd5a28d541dcb0f345d3f6e9bdf5" UpdateTS="10/31/2022 7:12:01 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="1" Data="">
+        </Param>
+      </Step>
+    </Task>
   </WF>
   <FieldMapping>
     <TaskDataSet TaskSeq="1" WFID="d6ebf4accf0f4a2b86f88d664a85aea9" ColumnIndx="3">
@@ -36,6 +42,12 @@
         <Param Name="locatorType" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="4">
         </Param>
         <Param Name="filePath" ParamSeq="3" Parameterized="1" Data="" ColumnIndx="5">
+        </Param>
+      </Step>
+    </TaskDataSet>
+    <TaskDataSet TaskSeq="4" WFID="11ffcd5a28d541dcb0f345d3f6e9bdf5" ColumnIndx="6">
+      <Step StepId="1" ActionID="dd3f2301a40f422cbcac90bb678fa6d9" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="6">
         </Param>
       </Step>
     </TaskDataSet>
