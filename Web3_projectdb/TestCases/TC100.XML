@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="610a3138643e44bfb8803164dc3ad91a" ManualTCId="TC100" TCName="TC100" UpdatedOn="11/10/2022 1:31:04 PM">
+  <WF>
+    <Task Name="a86f450c12cc42409686bcc46e1fc136" Desc="OpenURL" TaskSeq="1" WFId="a86f450c12cc42409686bcc46e1fc136" ID="a86f450c12cc42409686bcc46e1fc136" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" ObjectName="" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;https://www.google.com/&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="d5d33278fb3847b4904ab66257a1c314" Desc="Click" TaskSeq="2" WFId="d5d33278fb3847b4904ab66257a1c314" ID="d5d33278fb3847b4904ab66257a1c314" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="c9bdb3bde6654bb599dedec83f849f85" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="26d67865cc6547338a15ca0a4af600ef" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="Search" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="c2b5aef0f9e2488085f967c8e8625937" Desc="Set" TaskSeq="3" WFId="c2b5aef0f9e2488085f967c8e8625937" ID="c2b5aef0f9e2488085f967c8e8625937" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="c9bdb3bde6654bb599dedec83f849f85" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="Search" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;india&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="6b5acc5962b44355a41f2bb421bf030f" Desc="Click" TaskSeq="4" WFId="6b5acc5962b44355a41f2bb421bf030f" ID="6b5acc5962b44355a41f2bb421bf030f" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="0fe53d0e836046efbbb6c0de31752233" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionID="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" IsSkipped="False" ObjectName="india" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="7b8c71663e7b4ab7add0a5d6f7b6bdad" Desc="Click" TaskSeq="5" WFId="7b8c71663e7b4ab7add0a5d6f7b6bdad" ID="7b8c71663e7b4ab7add0a5d6f7b6bdad" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="6d592804933c4e728ec577636a8918cb" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="26d67865cc6547338a15ca0a4af600ef" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="Search1" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="46ae012231d9462cbfbbaf528d8ed061" Desc="Set" TaskSeq="6" WFId="46ae012231d9462cbfbbaf528d8ed061" ID="46ae012231d9462cbfbbaf528d8ed061" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="6d592804933c4e728ec577636a8918cb" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="Search1" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;he ishwara&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="bd955dfea7154ef687e82ff1b044059d" Desc="Click" TaskSeq="7" WFId="bd955dfea7154ef687e82ff1b044059d" ID="bd955dfea7154ef687e82ff1b044059d" UpdateTS="11/10/2022 1:31:04 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="fc673b65002841a3ae4903c75bb37beb" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionID="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" IsSkipped="False" ObjectName="Search2" StepSeq="1">
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+  </FieldMapping>
+</TC>
