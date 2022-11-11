@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="Task01" UpdatedOn="11/11/2022 10:50:33 AM" Desc="Task01" TaskID="5350a1f6eaca46f1b58d2c0e8b7ee66d" Path="Task01.XML" IsSystemTask="0" OnError="Continue">
+<Task TaskName="Task01" UpdatedOn="11/11/2022 10:51:02 AM" Desc="Task01" TaskID="5350a1f6eaca46f1b58d2c0e8b7ee66d" Path="Task01.XML" IsSystemTask="0" OnError="Continue">
   <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
     <Param Name="&quot;key&quot;" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
     </Param>
@@ -20,7 +20,9 @@
     <Param Name="text" ParamSeq="1" Parameterized="1" Data="">
     </Param>
   </Step>
-  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  <Step StepId="6" stepSeq="5" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="441488572d1411e896d7f01faf1c4dfc" ActionName="ClickAndHold" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
     <Param Name="&quot;key&quot;" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
     </Param>
   </Step>
