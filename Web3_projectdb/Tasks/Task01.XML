@@ -1,11 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="Task01" UpdatedOn="11/10/2022 8:54:51 AM" Desc="Task01" TaskID="5350a1f6eaca46f1b58d2c0e8b7ee66d" Path="Task01.XML" IsSystemTask="0" OnError="Continue">
-  <Step StepId="1" stepSeq="1" ObjectName="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="">
-    <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
+<Task TaskName="Task01" UpdatedOn="11/11/2022 10:50:13 AM" Desc="Task01" TaskID="5350a1f6eaca46f1b58d2c0e8b7ee66d" Path="Task01.XML" IsSystemTask="0" OnError="Continue">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;key&quot;" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
     </Param>
   </Step>
-  <Step StepId="2" stepSeq="2" ObjectName="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="false" ObjectId="">
-    <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;key&quot;" ParamSeq="1" Parameterized="0" Data="&quot;key&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="A39012B276A94A86801C54186E96CD5B" ActionName="ChangeCaseAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Key" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="InputString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="Case" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="95606D24111B4F85B560DA1208232018" ActionName="Clipboard.Copy" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="text" ParamSeq="1" Parameterized="1" Data="">
     </Param>
   </Step>
 </Task>
